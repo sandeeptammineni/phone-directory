@@ -1,8 +1,13 @@
-
 function App() {
   return (
     <div>
-      Phone Directory
+      {/* <div>Phone Directory</div>
+      <button>Add</button>
+      <div>
+        <span>Name</span>
+        <span>Phone</span>
+      </div> */}
+      <input type='text' placeholder="your name"></input>
     </div>
   );
 }
