@@ -1,15 +1,14 @@
-function App() {
+import React, { Component } from "react";
+import Header from "./header";
+
+class App extends Component {
+  render(){
   return (
-    <div>
-      {/* <div>Phone Directory</div>
-      <button>Add</button>
       <div>
-        <span>Name</span>
-        <span>Phone</span>
-      </div> */}
-      <input type='text' placeholder="your name"></input>
-    </div>
-  );
+      <Header/>,
+      <h2>Contact</h2></div>
+  )
 }
+  }
 
 export default App;
